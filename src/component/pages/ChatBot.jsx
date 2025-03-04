@@ -132,7 +132,6 @@ function ChatBot() {
 
   return (
     <div className="min-h-screen bg-black/[0.96] flex flex-col">
-      {/* <NavBar /> */}
 
       <div className="flex-1 flex relative">
         {/* Back Button */}
@@ -299,7 +298,6 @@ function ChatBot() {
         </div>
       </div>
 
-      {/* <Footer /> */}
     </div>
   )
 }
