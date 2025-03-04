@@ -76,7 +76,7 @@ function ChatBot() {
         fileInputRef.current.value = ""
       }
     } catch (error) {
-      console.log("upload failed: ",errorresponse?.data || error.message)
+      console.log("upload failed: ", error.response?.data || error.message)
       setMessages([
         {
           type: "error",
