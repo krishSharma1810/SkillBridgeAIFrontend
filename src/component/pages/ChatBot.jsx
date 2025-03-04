@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom"
 import NavBar from "../componentBlock/NavBar"
 import Footer from "../componentBlock/Footer"
 
-const API_URL = "http://skillbridge.duckdns.org:5000"
+const API_URL = "https://skillbridge.duckdns.org:5000"
 
 function ChatBot() {
   const [file, setFile] = useState(null)
